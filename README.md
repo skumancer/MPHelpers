@@ -1,4 +1,4 @@
-# Helpers
+# MPHelpers
 
 **Personal utility library for my SwiftUI projects.**
 

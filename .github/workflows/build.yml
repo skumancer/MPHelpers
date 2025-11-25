@@ -31,7 +31,7 @@ jobs:
       - name: Build for iOS Simulator
         run: |
           xcodebuild build \
-            -scheme Helpers \
+            -scheme MPHelpers \
             -destination 'platform=iOS Simulator,name=iPhone 16' \
             -skipPackagePluginValidation
 
@@ -62,7 +62,7 @@ jobs:
       - name: Build for iOS Simulator
         run: |
           xcodebuild build \
-            -scheme Helpers \
+            -scheme MPHelpers \
             -destination 'platform=iOS Simulator,name=iPhone 16' \
             -skipPackagePluginValidation
 

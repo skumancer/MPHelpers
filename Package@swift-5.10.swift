@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "Helpers",
+    name: "MPHelpers",
     platforms: [.iOS(.v13), .macOS(.v11), .watchOS(.v8)],
     products: [
         .library(
-            name: "Helpers",
-            targets: ["Helpers"]),
+            name: "MPHelpers",
+            targets: ["MPHelpers"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Helpers",
+            name: "MPHelpers",
             dependencies: []),
         .testTarget(
-            name: "HelpersTests",
-            dependencies: ["Helpers"]),
+            name: "MPHelpersTests",
+            dependencies: ["MPHelpers"]),
     ]
 )
